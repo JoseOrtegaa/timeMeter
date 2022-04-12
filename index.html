@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cronometro</title>
+</head>
+<body>
+
+    <!--ALARMA: 0 , TEMPROIZADOR: 1, CRONOMETRO: 2, HORA: 3-->
+
+    <header>
+        
+        <div id="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <h2>time.Meter </h2>
+
+        <div id="select-button">
+            <select name="options">
+                <option disabled selected hidden>Herramientas</option>
+                <option value="0">Alarma</option>
+                <option value="1">Temporizador</option>
+                <option value="2">Cronómetro</option>
+                <option value="3">Reloj</option>
+            </select>
+
+            <button><img src="./imgs/mood-white.svg" alt="cambiar modo oscuro o claro"></button>
+        </div>
+    </header>
+
+    <main>
+        <div id="lateral">
+            <a href="#"><img src="./imgs/alarm-white.svg" alt="">Alarma</a>
+            <a href="#"><img src="./imgs/temp-white.svg" alt="">Temporizador</a>
+            <a href="#"><img src="./imgs/cronometro-white.svg" alt="">Cronometro</a>
+            <a href="#"><img src="./imgs/watch-white.svg" alt="">Reloj</a>
+                
+        </div>
+
+        <section>
+
+
+
+        </section>
+    </main>
+
+    <script src="./cronometro.js"></script>
+</body>
+</html>
